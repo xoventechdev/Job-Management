@@ -1,0 +1,51 @@
+.notification-preview {
+    background-color: #f8f9fa;
+    border-radius: 16px;
+    padding: 12px;
+    border: 1px solid #dee2e6;
+    max-width: 400px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.notification-header {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-bottom: 8px;
+}
+
+.android-icon {
+    color: #3ddc84;
+    margin-right: 8px;
+}
+
+.notification-content {
+    display: flex;
+    align-items: center;
+}
+
+.app-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.text-content .title {
+    font-weight: bold;
+    color: #212529;
+}
+
+.text-content .body {
+    font-size: 0.9rem;
+    color: #495057;
+}

@@ -40,6 +40,8 @@ import ResultEditPage from './pages/ResultEditPage';
 import SolutionListPage from './pages/SolutionListPage';
 import SolutionEditPage from './pages/SolutionEditPage';
 
+import NotificationPage from './pages/NotificationPage';
+
 function App() {
     return (
         <Router>
@@ -101,7 +103,10 @@ function App() {
                               {/* Result Routes */}
                             <Route path="/admin/solutions" element={<SolutionListPage />} />
                             <Route path="/admin/solution/create" element={<SolutionEditPage />} />
-                            <Route path="/admin/solution/:id/edit" element={<SolutionEditPage />} />                           
+                            <Route path="/admin/solution/:id/edit" element={<SolutionEditPage />} />   
+
+                            <Route path="/admin/notifications" element={<NotificationPage />} />
+                        
                             
                         </Route>
 

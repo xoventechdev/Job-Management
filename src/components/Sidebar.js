@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import { FaTachometerAlt, FaBuilding, FaBullhorn, FaNewspaper, FaClipboardList, FaLightbulb, FaQuestionCircle } from 'react-icons/fa';
+import { FaTachometerAlt, FaBuilding, FaBullhorn, FaNewspaper, FaClipboardList, FaLightbulb, FaQuestionCircle , FaBell } from 'react-icons/fa';
 // import '../App.css'; // We will create this for custom styles
 
 const Sidebar = () => {
@@ -51,6 +51,11 @@ const Sidebar = () => {
             <LinkContainer to="/admin/solutions">
                 <Nav.Link className="text-white py-2 px-3">
                     <FaQuestionCircle className="me-2" /> Solutions
+                </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/admin/notifications">
+                <Nav.Link className="text-white py-2 px-3">
+                    <FaBell  className="me-2" /> Notifications
                 </Nav.Link>
             </LinkContainer>
         </Nav>
